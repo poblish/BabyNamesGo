@@ -22,7 +22,7 @@ func main() {
             if name1 != name2 {
                 syllables2 := syllableCount(name2)
 
-                if name1[0] == name2[0] || (syllables1 == 1 && syllables2 == 1) || (syllables1 == 1 && syllables2 >= 3) || (syllables1 >= 3 && syllables2 >= 3) {
+                if name1[0] == name2[0] || (syllables1 == 1 && syllables2 == 1) || (syllables1 == 1 && syllables2 >= 3) || (syllables1 >= 3 && syllables2 >= 3) || (syllables1 >= 3 && syllables2 == 1) {
                     continue
                 }
 
